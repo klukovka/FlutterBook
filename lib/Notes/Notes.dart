@@ -181,7 +181,7 @@ class _NotesState extends State<Notes> {
                                           color: _color == "yellow"
                                               ? Colors.yellow
                                               : Theme.of(context)
-                                                  .canvasColor))),
+                                                  .canvasColor),),),
                           onTap: () {
                             setState(() {
                               _color = 'yellow';
