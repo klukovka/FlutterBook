@@ -221,7 +221,7 @@ class _TasksState extends State<Tasks> {
                                 task.completed == 'true'
                                     ? Icons.radio_button_checked
                                     : Icons.radio_button_unchecked,
-                                color: Color(0xff3b0011))
+                                color: Color(0xff3b0011),)
                           ],
                         ),
                       ),
