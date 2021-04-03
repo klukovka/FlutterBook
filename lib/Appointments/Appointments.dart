@@ -436,6 +436,6 @@ class _AppointmentsState extends State<Appointments> {
             await addApp(context, new Appointment());
             refresh();
           },
-        ));
+        ),);
   }
 }
